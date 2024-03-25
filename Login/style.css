@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+box-sizing: border-box;
+}
+body{
+    
+    background-image: url(pink.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   min-height: 100vh;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Times New Roman', Times, serif;
+   
+   }
+ .main{
+  
+  color: black;
+  width: 400px;
+  height: 100%;
+  border-radius: 10px;
+ background-color: transparent;
+  padding: 20px 40px;
+   
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ }
+.main h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    
+}
+.main .inputbox{
+    width:100%;
+    height: 35px;
+   margin: 45px 10px;
+
+}
+.inputbox input{
+    width: 100%;
+height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;  
+border: 2px solid #1d1c1c;
+border-radius: 50px;
+padding: 20px 45px 20px 20px;
+
+}
+.inputbox input::placeholder{
+    
+    color: #504f4f;
+    font-size: 14px;
+}
+.inputbox{
+    position: relative;
+}
+.inputbox i{
+    position: absolute;
+  right: 20px;
+  top: 22px;
+  font-size: 18px;
+   transform: translateY(-50%); 
+}
+
+.main .rememberforgot{
+display: flex;
+justify-content: space-between;
+font-size: 17px;
+}
+.rememberforgot label{
+   
+margin-left: 1px;
+margin-top: 20px;
+}
+
+.rememberforgot a{
+    
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    margin-left: 80px;
+margin-top: 20px;
+} 
+
+.rememberforgot a:hover{
+    color: rgb(194, 27, 27);
+    text-decoration: underline;
+}
+
+.btn{
+    width: 90%;
+    height: 35px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 4px ;
+    margin-top: 50px;
+    margin-left: 20px;
+cursor: pointer;
+font-size: 15px;
+border: 1px solid rgb(49, 48, 48);
+color: #130f0f;
+}
+.btn:hover{
+    background-color:rgb(61, 58, 58);
+    color: white;
+ transition: all 0.2s linear;
+}
+.registerlink{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.registerlink  p a{
+text-decoration: none;
+color: black;
+font-size: 18px;
+
+}
+.registerlink p{
+    font-size: 17px;
+}
+.registerlink a{
+    margin-left: 10px;
+}
+.registerlink a:hover{
+text-decoration: underline;
+color: rgb(2, 2, 155);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
